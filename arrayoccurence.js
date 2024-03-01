@@ -1,5 +1,6 @@
 function solution(A) {
-    const occurrences = {};
+    const occurrences = {}; //initialize an empty object, iterate over the array, return any unpaired element
+    
   
     for (let element of A) {
       // If the element is already in the occurrences object, delete it
